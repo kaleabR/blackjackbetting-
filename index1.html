@@ -100,6 +100,7 @@
     <div class="btn" id="hitBtn" onclick="hit()">Hit</div>
     <div class="btn" id="standBtn" onclick="stand()">Stand</div>
   </div>
+</body>
 <script>
 const suits=["♠","♥","♦","♣"],ranks=["A","2","3","4","5","6","7","8","9","10","J","Q","K"];
 const cardValue=r=>r==="A"?11:["K","Q","J"].includes(r)?10:parseInt(r);
@@ -283,5 +284,4 @@ function moveCardsToDealerPile(cards) {
 
 
 </script>
-</body>
 </html>
